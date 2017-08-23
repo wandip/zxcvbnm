@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.dipak.ownerv1.MainActivity">
+
+
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="332dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        app:mcv_firstDayOfWeek="monday"
+        app:mcv_selectionColor="@color/colorPrimary"
+        app:mcv_calendarMode="month"
+        app:mcv_arrowColor="@color/colorPrimary"
+        app:mcv_showOtherDates="all"
+        app:mcv_tileHeight="match_parent"
+        app:mcv_tileWidth="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Mess"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Menu"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+</LinearLayout>
